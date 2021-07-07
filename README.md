@@ -3,7 +3,7 @@
 This toolbox implements a simplified image color correction algorithm in MATLAB Guide...
 No need for deep knowledge of MATLAB programming to run the App.
 
-To Run GUI;
+To Run the GUI;
 - use MATLAB command "cd ColorCorrectioGUI_directory"
 - run command "color_calib_UI"
 

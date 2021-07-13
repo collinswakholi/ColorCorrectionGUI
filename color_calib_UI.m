@@ -111,7 +111,7 @@ global Im_ref
 handles.rotate.Visible = 'On';
 
 [my_file,my_dir] = uigetfile('*.*');
-try
+%try
     image_dir = [my_dir,my_file];
 
     Im_ref = imread(image_dir);
@@ -121,9 +121,9 @@ try
     end
 
     imshow(Im_ref,'Parent',handles.axes_orig);
-catch
-    warndlg('Try to select color chart image file again','No file selected...')
-end
+%catch
+    %warndlg('Try to select color chart image file again','No file selected...')
+%end
 
 
 % --- Executes on button press in run_color_corr.
